@@ -20,8 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8e849c0-da93-4c6c-ad75-56e13ee63ac2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/controller/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/db/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/model/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/route/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/route/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.env" beforeDir="false" afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +50,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b8e849c0-da93-4c6c-ad75-56e13ee63ac2" name="Default Changelist" comment="" />
@@ -51,11 +71,15 @@
       <option name="presentableId" value="Default" />
       <updated>1598600813489</updated>
       <workItem from="1598600816607" duration="2906000" />
+      <workItem from="1598873076069" duration="747000" />
+      <workItem from="1598873839445" duration="6586000" />
+      <workItem from="1598883483008" duration="2407000" />
+      <workItem from="1598886801918" duration="10462000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -67,15 +91,49 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="444" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598604235008">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="509" y="406" width="1401" height="301" key="#SQL_Dialects" timestamp="1598897603358">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="509" y="406" width="1401" height="301" key="#SQL_Dialects/72.27.1848.1053@72.27.1848.1053" timestamp="1598897603358" />
+    <state x="1053" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598898136903">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="1053" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1598898136903" />
+    <state x="642" y="330" width="578" height="410" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598887642071">
+      <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="444" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1598604235008" />
+    <state x="642" y="330" width="578" height="410" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1598887642071" />
+    <state width="1315" height="275" key="GridCell.Tab.0.bottom" timestamp="1598873823219">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1315" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1598873823219" />
+    <state width="1315" height="275" key="GridCell.Tab.0.center" timestamp="1598873823218">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1315" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1598873823218" />
+    <state width="1315" height="275" key="GridCell.Tab.0.left" timestamp="1598873823218">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1315" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1598873823218" />
+    <state width="1315" height="275" key="GridCell.Tab.0.right" timestamp="1598873823219">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1315" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1598873823219" />
+    <state x="453" y="256" width="566" height="602" key="RollbackChangesDialog" timestamp="1598882392517">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="453" y="256" width="566" height="602" key="RollbackChangesDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1598882392517" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1598620381755">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1598620381755" />
+    <state x="1116" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1598897631940">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="1116" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1598897631940" />
   </component>
 </project>
