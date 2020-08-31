@@ -1,2 +1,2 @@
-# wousay
-Pern Stack - IK Platform
+# management-platform
+Pern Stack - management-platform
