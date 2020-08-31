@@ -1,2 +1,2 @@
 # wousay
-Pern Stack - Admin Panel
+Pern Stack - IK Platform
