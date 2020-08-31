@@ -1,2 +1,2 @@
 # wousay
-Pern Stack -  Discussion Platform
+Pern Stack - Admin Panel
