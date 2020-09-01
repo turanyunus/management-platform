@@ -22,6 +22,10 @@
     <list default="true" id="b8e849c0-da93-4c6c-ad75-56e13ee63ac2" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/server/db.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controller/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controller/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/model/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/route/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/route/user.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +76,7 @@
       <workItem from="1598873839445" duration="6586000" />
       <workItem from="1598883483008" duration="2407000" />
       <workItem from="1598886801918" duration="11627000" />
-      <workItem from="1598957928984" duration="1125000" />
+      <workItem from="1598957928984" duration="10356000" />
     </task>
     <task id="LOCAL-00001" summary="first api call">
       <created>1598898821396</created>
@@ -88,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598958747101</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="prettier added in fixed">
+      <created>1598959150376</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598959150376</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,10 +127,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="509" y="406" width="1401" height="301" key="#SQL_Dialects/72.27.1848.1053@72.27.1848.1053" timestamp="1598897603358" />
-    <state x="1053" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598899322842">
+    <state x="1053" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598960529765">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="1053" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1598899322842" />
+    <state x="1053" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1598960529765" />
     <state x="642" y="330" width="632" height="417" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598899572049">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -129,10 +140,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="1102" y="327" width="524" height="441" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/72.27.1848.1053@72.27.1848.1053" timestamp="1598899053522" />
-    <state x="455" y="82" width="936" height="911" key="CommitChangelistDialog2" timestamp="1598958746744">
+    <state x="455" y="82" width="936" height="911" key="CommitChangelistDialog2" timestamp="1598959150269">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="455" y="82" width="936" height="911" key="CommitChangelistDialog2/72.27.1848.1053@72.27.1848.1053" timestamp="1598958746744" />
+    <state x="455" y="82" width="936" height="911" key="CommitChangelistDialog2/72.27.1848.1053@72.27.1848.1053" timestamp="1598959150269" />
     <state x="179" y="101" width="1478" height="879" key="DiffContextDialog" timestamp="1598958377047">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -165,14 +176,14 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="858" y="176" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1598899294635" />
-    <state x="483" y="249" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598958750000">
+    <state x="483" y="249" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598959151829">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1598620381755" />
-    <state x="483" y="249" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1598958750000" />
-    <state x="1116" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1598899290449">
+    <state x="483" y="249" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1598959151829" />
+    <state x="1116" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1598960837700">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="1116" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1598899290449" />
+    <state x="1116" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1598960837700" />
   </component>
 </project>
