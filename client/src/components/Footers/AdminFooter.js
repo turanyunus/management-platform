@@ -12,7 +12,6 @@ class Footer extends React.Component {
               © 2021{" "}
               <a
                 className="font-weight-bold ml-1"
-                href
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -24,13 +23,13 @@ class Footer extends React.Component {
           <Col xl="6">
             <Nav className="nav-footer justify-content-center justify-content-xl-end">
               <NavItem>
-                <NavLink href rel="noopener noreferrer" target="_blank">
+                <NavLink rel="noopener noreferrer" target="_blank">
                   Neler yapıyoruz ?
                 </NavLink>
               </NavItem>
 
               <NavItem>
-                <NavLink href rel="noopener noreferrer" target="_blank">
+                <NavLink rel="noopener noreferrer" target="_blank">
                   Biz Kimiz
                 </NavLink>
               </NavItem>
