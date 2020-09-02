@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8e849c0-da93-4c6c-ad75-56e13ee63ac2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/controller/company.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/route/company.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
-    </list>
+    <list default="true" id="b8e849c0-da93-4c6c-ad75-56e13ee63ac2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +70,7 @@
       <workItem from="1598883483008" duration="2407000" />
       <workItem from="1598886801918" duration="11627000" />
       <workItem from="1598957928984" duration="11078000" />
-      <workItem from="1599043079604" duration="1233000" />
+      <workItem from="1599043079604" duration="1887000" />
     </task>
     <task id="LOCAL-00001" summary="first api call">
       <created>1598898821396</created>
@@ -105,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598970352279</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="GetCompanies(GET) added">
+      <created>1599047159255</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599047159255</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,7 +129,8 @@
     <MESSAGE value="first api call" />
     <MESSAGE value="prettier added in fixed" />
     <MESSAGE value="User POST, GET, PUT methods added" />
-    <option name="LAST_COMMIT_MESSAGE" value="User POST, GET, PUT methods added" />
+    <MESSAGE value="GetCompanies(GET) added" />
+    <option name="LAST_COMMIT_MESSAGE" value="GetCompanies(GET) added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="509" y="406" width="1401" height="301" key="#SQL_Dialects" timestamp="1598897603358">
@@ -147,10 +150,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="1102" y="327" width="524" height="441" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/72.27.1848.1053@72.27.1848.1053" timestamp="1598899053522" />
-    <state x="455" y="82" width="936" height="911" key="CommitChangelistDialog2" timestamp="1598970352174">
+    <state x="455" y="82" width="936" height="911" key="CommitChangelistDialog2" timestamp="1599047159066">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="455" y="82" width="936" height="911" key="CommitChangelistDialog2/72.27.1848.1053@72.27.1848.1053" timestamp="1598970352174" />
+    <state x="455" y="82" width="936" height="911" key="CommitChangelistDialog2/72.27.1848.1053@72.27.1848.1053" timestamp="1599047159066" />
     <state x="179" y="101" width="1478" height="879" key="DiffContextDialog" timestamp="1598970328260">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -183,11 +186,11 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="858" y="176" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1598899294635" />
-    <state x="483" y="249" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598970353885">
+    <state x="483" y="249" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1599047160754">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1598620381755" />
-    <state x="483" y="249" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1598970353885" />
+    <state x="483" y="249" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1599047160754" />
     <state x="1116" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1598960837700">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
