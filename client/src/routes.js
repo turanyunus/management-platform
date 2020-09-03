@@ -3,6 +3,7 @@ import Profile from "views/examples/Profile.js";
 import Register from "views/examples/Register.js";
 import Login from "views/examples/Login.js";
 import Tables from "views/examples/Tables.js";
+import EmployeeScreen from "./views/pages/Employees/EmployeeScreen";
 
 let routes = [
   {
@@ -10,6 +11,13 @@ let routes = [
     name: "Dashboard",
     icon: "ni ni-tv-2 text-primary",
     component: Index,
+    layout: "/admin",
+  },
+  {
+    path: "/employees",
+    name: "Çalışanlar",
+    icon: "ni ni-user-run text-green",
+    component: EmployeeScreen,
     layout: "/admin",
   },
   {
