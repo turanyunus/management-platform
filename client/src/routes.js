@@ -1,14 +1,17 @@
 import Index from "views/Index.js";
-import Profile from "views/examples/Profile.js";
 import Register from "views/examples/Register.js";
 import Login from "views/examples/Login.js";
 import Tables from "views/examples/Tables.js";
 import EmployeeScreen from "./views/pages/Employees/EmployeeScreen";
+import FinancialScreen from './views/pages/Financial/FinancialScreen'
+import CalendarScreen from './views/pages/Calendar/CalendarScreen'
+import ReportScreen from './views/pages/Reports/ReportScreen'
+import StockScreen from './views/pages/Stock/StockScreen'
 
 let routes = [
   {
     path: "/index",
-    name: "Dashboard",
+    name: "Ana Sayfa",
     icon: "ni ni-tv-2 text-primary",
     component: Index,
     layout: "/admin",
@@ -16,15 +19,36 @@ let routes = [
   {
     path: "/employees",
     name: "Çalışanlar",
-    icon: "ni ni-user-run text-green",
+    icon: "ni ni-user-run text-orange",
     component: EmployeeScreen,
     layout: "/admin",
   },
   {
-    path: "/user-profile",
-    name: "User Profile",
-    icon: "ni ni-single-02 text-yellow",
-    component: Profile,
+    path: "/financial",
+    name: "Mali işler",
+    icon: "ni ni-money-coins text-green",
+    component: FinancialScreen,
+    layout: "/admin",
+  },
+  {
+    path: "/calender",
+    name: "İş Takibi / Takvim",
+    icon: "ni ni-collection text-yellow",
+    component: CalendarScreen,
+    layout: "/admin",
+  },
+  {
+    path: "/stock",
+    name: "Stok Takibi",
+    icon: "ni ni-archive-2 text-info",
+    component: StockScreen,
+    layout: "/admin",
+  },
+  {
+    path: "/reports",
+    name: "Raporlar",
+    icon: "ni ni-chart-pie-35 text-red",
+    component: ReportScreen,
     layout: "/admin",
   },
   {

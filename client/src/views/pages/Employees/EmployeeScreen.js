@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from 'react'
 import Header from "../../../components/Headers/Header";
 import {
   Badge,
@@ -20,6 +20,11 @@ import {
 } from "reactstrap";
 
 const EmployeeScreen = () => {
+
+  useEffect(()=>{
+
+  }, [])
+
   return (
     <>
       <Header />
